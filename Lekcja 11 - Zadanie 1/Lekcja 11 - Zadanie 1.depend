@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1705837208 source:c:\users\angelopapaya\documents\c++\lekcja 11 - zadanie 1\main.cpp
+	<iostream>
+	"functions.h"
+
+1705691730 source:c:\users\angelopapaya\documents\c++\lekcja 11 - zadanie 1\functions.cpp
+	"functions.h"
+	<iostream>
+
+1705837344 c:\users\angelopapaya\documents\c++\lekcja 11 - zadanie 1\functions.h
+
