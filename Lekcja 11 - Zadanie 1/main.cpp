@@ -2,13 +2,14 @@
 #include "functions.h"
 #include "templates.h"
 
+
 int main()
 
 {
-       // std::cout << "Podaj dwie liczby calkowite?"<< "\n";
-       // int a = GetNumber();
-        //int b = GetNumber();
-        //Compare (a,b);
+        std::cout << "Podaj dwie liczby calkowite?"<< "\n";
+        int a = GetNumber();
+        int b = GetNumber();
+        Compare (a,b);
         std::cout << "Podaj dwa znaki?" << "\n";
         char c = GetSign();
         char d = GetSign();
