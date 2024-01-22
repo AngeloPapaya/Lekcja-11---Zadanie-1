@@ -1,5 +1,6 @@
 #include "functions.h"
 #include <iostream>
+
 int GetNumber()
 {
     int a;
