@@ -1,5 +1,6 @@
 #include <iostream>
 #include "functions.h"
+#include "templates.h"
 
 int main()
 
