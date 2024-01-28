@@ -29,7 +29,7 @@ int main()
     b1 = a1;
     b1 = b;
 
-
+return 0;
 
 
 
