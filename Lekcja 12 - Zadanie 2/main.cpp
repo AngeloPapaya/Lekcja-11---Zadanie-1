@@ -2,21 +2,21 @@
 
 
 
-void Copy (int number)
+void setFive (int number)
 
 {
     number = 5;
 
 }
 
-void Ref (int& number)
+void setFiveRef (int& number)
 
 {
     number = 5;
 
 }
 
-void Pointer (int* number)
+void setFivePointer (int* number)
 
 {
     *number = 5;
@@ -29,13 +29,13 @@ int main()
 {
     int a = 0;
 
-    Copy(a);
+    setFive(a);
     std::cout << a << " ";
 
-    Ref(a);
+    setFiveRef(a);
     std::cout << a << " ";
 
-    Pointer(&a);
+    setFivePointer(&a);
     std::cout << a;
 }
 /*
