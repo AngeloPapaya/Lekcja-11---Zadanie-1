@@ -3,16 +3,33 @@
 
 
 int main()
+
+
+
 {
-    const std::string a = "Tekst";
-    std::string& a1 = a;// nie mozna przypisac zmiennej referencji do sta³ej
-    const std::string& a2 = a;
+    std::string a = "Tekst";
+    const std::string b = "Tekst2";
+    std::string &a1 = a;
+    const std::string &b1 = b;
+    
+    a = b;
+    a = a1;
+    a = b1;
+    
+    b = a; //b jest niezmienne i nie mozna przypisac do b innej zmiennej
+    b = a1;
+    b = b1;
+    
+    a1 = a;
+    a1 = b;
+    a1 = b1;
+    
+    
+    b1 = a;
+    b1 = a1;
+    b1 = b;
 
 
-
-    std::string b = "Jogurt";
-    std::string& b1 = b;
-    const std::string& b2 = b;
 
 
 
