@@ -19,7 +19,7 @@ void Ref (int& number)
 void Pointer (int* number)
 
 {
-    number* = 5;
+    *number = 5;
 
 }
 
