@@ -85,6 +85,6 @@ int main()
             B3::CalculateArea(2,3,4);
             std::cout << "\n";
     }
-            std::cout << "Ogolna liczba operacji to: " << ::ogolnaliczbaoperacji;
+    std::cout << "Ogolna liczba operacji to: " << ::ogolnaliczbaoperacji;
 
 }
