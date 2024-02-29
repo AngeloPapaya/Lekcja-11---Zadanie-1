@@ -1,0 +1,24 @@
+#include <iostream>
+#include <list>
+   
+int main()
+{
+      
+ std::list <int> l = {2, 4, 6, 8, 10};
+   
+ l.push_back(12);
+ auto it = l.begin();
+ it++; it++; it++;
+ it = l.insert(it,7);
+ l.pop_front();
+   
+ std::cout <<"Rozmiar: " << l.size() << "\n";
+ std::cout << "Maksymalny rozmiar: " << l.max_size() << "\n";
+   
+std::cout << "Lista: ";
+ for (auto i = l.cbegin(); i != l.cend(); i++)
+ {
+     std::cout << *i << " ";
+ }
+   
+}
