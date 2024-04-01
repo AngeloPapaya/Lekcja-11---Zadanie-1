@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1711986988 source:c:\users\angelopapaya\documents\c++\lekcja 20 - zadanie 2\main.cpp
+	<iostream>
+	<vector>
+	<cmath>
+
