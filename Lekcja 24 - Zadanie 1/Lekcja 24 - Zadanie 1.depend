@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1713376855 source:c:\users\angelopapaya\documents\c++\lekcja 24 - zadanie 1\main.cpp
+	<iostream>
+	<vector>
+	<ctime>
+	<list>
+	<set>
+
