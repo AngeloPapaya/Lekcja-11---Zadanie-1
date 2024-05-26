@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1716743048 source:c:\users\angelopapaya\documents\c++\lekcja 28 - zadanie 2\main.cpp
+	<iostream>
+	<algorithm>
+	<string>
+	<fstream>
+
